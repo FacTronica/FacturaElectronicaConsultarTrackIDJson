@@ -47,4 +47,6 @@ $arregloJson = array(
 https://github.com/FacTronica/BoletaElectronicaConsultarJson/blob/main/envia_json_consultartrackid.php
 
 El resultado será un objeto json con la siguiente estructura:
+<code>
 array(7) { ["status"]=> string(3) "200" ["mensaje"]=> string(39) "EL SII RESPONDIO EL SIGUIENTE RESULTADO" ["trackid"]=> string(10) "6170900498" ["informados"]=> string(1) "1" ["aceptados"]=> string(1) "1" ["rechazados"]=> string(1) "0" ["reparos"]=> string(1) "0" } 
+</code>
