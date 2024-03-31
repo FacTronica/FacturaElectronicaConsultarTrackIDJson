@@ -4,8 +4,6 @@
 
 La <b>API Consultar TrackID DTE</b> esta diseñada para que el programador pueda realizar una fácil y rápida Integración con Sistema Propio. El objetivo de esta api es <b>"Obtener el estado de los Documentos enviados al sii"</b>.
 <br>La comunicación entre el Servidor y Cliente se realiza a traves de Datos Json o archivos txt.
-<br>
-<a href="https://servidor3.factronica.cl/api/factronica_factura_consultartrackid/ejemplo/" target="_blank">Demo en Php</a>
  
 ## PRECIOS:
 
@@ -79,12 +77,12 @@ Enviar la petición con el txt o datos json a la url endpoint del servidor.
 
 ## ENVIAR JSON CON CURL
 ````
-curl -X POST --header 'Content-Type: application/json' -d '{"Token": "qwerty","RutEmisor": "11111111-1","TrackId": "4506206192","Modulus": "nnn","Exponent": "nnn","X509Certificate": "nnn","PrivKey": "nnn"}' https://servidor3.factronica.cl/api/factronica_factura_consultartrackid/index.php
+curl -X POST --header 'Content-Type: application/json' -d '{"Token": "qwerty","RutEmisor": "11111111-1","TrackId": "4506206192","Modulus": "nnn","Exponent": "nnn","X509Certificate": "nnn","PrivKey": "nnn"}' https://www.suhost.cl/api/factronica_factura_consultartrackid/index.php
 ````
 
 ## ENVIAR TXT CON CURL
 ````
-curl --form "Token=qwerty" --form "archivotxt=@dte.php" https://servidor3.factronica.cl/api/factronica_factura_consultartrackid
+curl --form "Token=qwerty" --form "archivotxt=@dte.php" https://www.suhost.cl/api/factronica_factura_consultartrackid/index.php
 ````
 
 ## PASO 03: RECUPERAR RESPUESTA DE LA API
