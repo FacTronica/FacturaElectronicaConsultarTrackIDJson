@@ -83,13 +83,11 @@ Enviar la petición con el txt o datos json a la url endpoint del servidor.
 ````
 curl -X POST --header 'Content-Type: application/json' -d '{"Token": "qwerty","RutEmisor": "11111111-1","TrackId": "4506206192","Modulus": "nnn","Exponent": "nnn","X509Certificate": "nnn","PrivKey": "nnn"}' https://servidor3.factronica.cl/api/factronica_factura_consultartrackid/index.php
 ````
-<a href="https://github.com/FacTronica/FacturaConsultarTrackIDServidor/blob/main/factronica_factura_consultartrackid/ejemplo/txt_consultarenviodte.php">Ver Ejemplo Enviar Json con Curl</a>
 
 ## ENVIAR TXT CON CURL
 ````
 curl --form "Token=qwerty" --form "archivotxt=@dte.php" https://servidor3.factronica.cl/api/factronica_factura_consultartrackid
 ````
-<a href="https://github.com/FacTronica/FacturaConsultarTrackIDServidor/blob/main/factronica_factura_consultartrackid/ejemplo/txt_consultarenviodte.php">Ver Ejemplo Enviar Txt con Curl</a>
 
 ## PASO 03: RECUPERAR RESPUESTA DE LA API
 	
