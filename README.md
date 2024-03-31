@@ -57,7 +57,6 @@ Crear archivo txt o datos json con los datos requeridos de acuerdo a los siguien
 	"PrivKey": "nnn"
 }
 ````
-<a href="https://github.com/FacTronica/FacturaConsultarTrackIDServidor/blob/main/factronica_factura_consultartrackid/ejemplo/json_datos.php">Ver Ejemplo Real en formato JSON</a>
 
 ## FORMATO TXT:
 ````
@@ -73,7 +72,6 @@ $FACTRONICA["RESPUESTASII"]="RUT765468108_TIPO61_FOLIO800_RESPUESTAENVIODTE.xml"
 $FACTRONICA["BUZONRESPUESTAS"]="temp_respuestas";
 ?>
 ````
-<a href="https://github.com/FacTronica/FacturaConsultarTrackIDServidor/blob/main/factronica_factura_consultartrackid/ejemplo/txt_consultarenviodte.php">Ver Ejemplo Real en formato TXT</a>
 
 ## PASO 02: ENVIAR PETICIÓN A LA API
 
